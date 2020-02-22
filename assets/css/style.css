@@ -22,9 +22,10 @@ header {
 }
 
 h1 {
-  border: rgb(214, 134, 134) 7px solid;
+  border: rgb(214, 134, 134) 5px solid;
   border-radius: 10px;
   border-style: dotted;
+  transition: border-width 0.6s linear;
   width: 60vh;
   padding: 1em;
   font-family: "Abril Fatface", cursive;
@@ -32,6 +33,14 @@ h1 {
   margin-left: 50%;
   transform: translate(-50%);
   font-size: 4vh;
+}
+
+header :hover {
+  border-width: 10px;
+}
+
+footer :hover {
+  border-width: 10px;
 }
 
 .panel {
