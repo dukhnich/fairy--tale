@@ -16,7 +16,7 @@ header {
   position: fixed;
   top: 0;
   z-index: 3;
-  width: 100vw;
+  width: 99vw;
   height: 20vh;
   background-color: white;
 }
@@ -37,8 +37,8 @@ h1 {
 .panel {
   background-color: grey;
   position: relative;
-  height: 25vw;
-  width: 100vw;
+  height: 35vw;
+  width: 99vw;
   color: aliceblue;
 }
 
